@@ -1,0 +1,13 @@
+ALGORITHM  sum
+VAR
+    set1 : ARRAY_OF INTEGER[4];
+    set2 : ARRAY_OF INTEGER[5];
+    set3 : ARRAY_OF INTEGER[3];
+    sum : INTEGER :=0 ;
+    n, i : INTEGER;
+BEGIN
+    set3 := {4, 7, 2}
+    FOR i FROM 0 TO n-2 STEP 1  DO
+    sum[i] := set3[i]+set3[i+1];
+    END_FOR
+END
